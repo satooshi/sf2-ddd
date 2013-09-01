@@ -10,7 +10,7 @@ interface __EntityFactoryInterface
     /**
      * Create new entity.
      *
-     * @return \__VendorPrefix\Infrastructure\__DomainNameBundle\Entity\__Entity
+     * @return \__VendorPrefix\Domain\__DomainNameBundle\Entity\__EntityExtendsDataModel
      */
     public function create();
 }
